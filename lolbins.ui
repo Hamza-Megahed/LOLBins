@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1040</width>
-    <height>598</height>
+    <height>621</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>0</y>
       <width>1041</width>
-      <height>601</height>
+      <height>621</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -47,7 +47,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>20</y>
+        <y>10</y>
         <width>161</width>
         <height>27</height>
        </rect>
@@ -82,7 +82,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>60</y>
+        <y>90</y>
         <width>191</width>
         <height>491</height>
        </rect>
@@ -94,14 +94,53 @@
      <widget class="QTextEdit" name="textEdit">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>60</y>
+        <x>220</x>
+        <y>90</y>
         <width>811</width>
         <height>491</height>
        </rect>
       </property>
       <property name="readOnly">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>191</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>File Search</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>50</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Content Search</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>50</y>
+        <width>81</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Search</string>
       </property>
      </widget>
     </widget>
@@ -113,7 +152,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>60</y>
+        <y>90</y>
         <width>191</width>
         <height>491</height>
        </rect>
@@ -122,8 +161,8 @@
      <widget class="QTextEdit" name="textEdit_3">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>60</y>
+        <x>220</x>
+        <y>90</y>
         <width>811</width>
         <height>491</height>
        </rect>
@@ -143,6 +182,45 @@
       </property>
       <property name="text">
        <string>Force Install/Update</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>191</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>File Search</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>50</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Content Search</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>50</y>
+        <width>81</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Search</string>
       </property>
      </widget>
     </widget>
